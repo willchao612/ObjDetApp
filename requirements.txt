@@ -1,0 +1,6 @@
+Flask
+flask-cors
+flask-mysqldb
+Pillow
+torch
+torchvision

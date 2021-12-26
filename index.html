@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ObjDetApp</title>
+  </head>
+  <body>
+    <form id="mainForm" name="mainForm">
+      <input id="imageInput" class="file" type="file" accept="image/*"> <button id="imageButton">Submit</button>
+      <input type="number" id="ratingInput" value="3" min="1" max="5">
+      <span>out of 5</span>
+      <button id="ratingButton">Rate</button>
+      <span id="totalVisits"></span>, <span id="avgRating"></span>
+    </form>
+    <div id="msg" style="display:none"></div>
+    <img id="resultImage" src="" style="display:none">
+    <script src="build/app.bundle.js"></script>
+  </body>
+</html>
